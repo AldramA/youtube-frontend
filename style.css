@@ -31,6 +31,11 @@ header {
   padding-left: 16px;
 }
 
+.left-section i:hover {
+  background-color: rgba(192, 192, 192, 0.454);
+  border-radius: 5px;
+}
+
 .mid-section {
   display: flex;
   align-items: center;
@@ -213,4 +218,20 @@ main {
 
 .v-cr:hover {
   color: black;
+}
+@media screen and (max-width: 1260px) {
+  aside{
+    width: 58px;
+  }
+  .subscriptions {
+    display: none;
+  }
+  .s{
+    display: none;
+  }
+  .mid-section form {
+    width: 290px;
+}
+
+
 }
