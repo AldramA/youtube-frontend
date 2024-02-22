@@ -1,113 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Youtube</title>
-  </head>
-  <body>
-    <header>
-      <div class="left-section">
-        <i class="material-icons logo">menu</i>
-        <img src="images/youtube-logo.png" alt="" />
-      </div>
-      <div class="mid-section">
-        <form action="">
-          <input type="text" placeholder="Search" />
-          <button><i class="material-icons">search</i></button>
-        </form>
-        <i class="material-icons mic">mic</i>
-      </div>
-      <div class="right-section">
-        <a href=""><i class="material-icons">video_call</i></a>
-        <a href=""><i class="material-icons">apps</i></a>
-        <a href=""><i class="material-icons">notifications</i></a>
-        <a href=""><i class="material-icons">account_circle</i></a>
-      </div>
-    </header>
-    <div class="content-area">
-      <aside>
-        <nav>
-          <a href="" class="nav-link active"
-            ><i class="material-icons">home</i
-            ><span id="active-span">Home</span></a
-          >
-          <a href="" class="nav-link"
-            ><i class="material-icons-outlined">explore</i
-            ><span>Explore</span></a
-          >
-          <a href="" class="nav-link"
-            ><i class="material-icons-outlined">subscriptions</i
-            ><span>Subscriptions</span></a
-          >
-          <a href="" class="nav-link"
-            ><i class="material-icons-outlined">ondemand_video</i
-            ><span>Originals</span></a
-          >
-          <a href="" class="nav-link"
-            ><i class="material-icons">play_circle_outline</i
-            ><span>Youtube Music</span></a
-          >
-          <hr />
-          <a href="" class="nav-link"
-            ><i class="material-icons-outlined">video_library</i
-            ><span>Library</span></a
-          >
-          <a href="" class="nav-link"
-            ><i class="material-icons">history</i><span>History</span></a
-          >
-          <a href="" class="nav-link"
-            ><i class="material-icons-outlined">smart_display</i
-            ><span>Your Videos</span></a
-          >
-          <a href="" class="nav-link"
-            ><i class="material-icons-outlined">watch_later</i
-            ><span>Watch later</span></a
-          >
-          <a href="" class="nav-link"
-            ><i class="material-icons-outlined">download</i
-            ><span>Downloads</span></a
-          >
-          <a href="" class="nav-link"
-            ><i class="material-icons-outlined">thumb_up</i
-            ><span>Liked videos</span></a
-          >
-          <hr />
-          <p>Subscriptions</p>
-          <a href="" class="nav-link"
-            ><img
-              src="images/profile-pic.png"
-              alt=""
-              class="channel-img"
-            /><span>MU</span></a
-          >
-        </nav>
-      </aside>
-      <main>
-        <div class="videos-container">
-          <div class="video">
-            <div class="thumbnal">
-              <img src="images/video1.jpeg" alt="" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Youtube</title>
+</head>
+
+<body>
+  <header>
+    <div class="left-section">
+      <i class="material-icons logo">menu</i>
+      <img src="images/youtube-logo.png" alt="" />
+    </div>
+    <div class="mid-section">
+      <form action="">
+        <input type="text" placeholder="Search" />
+        <button><i class="material-icons">search</i></button>
+      </form>
+      <i class="material-icons mic">mic</i>
+    </div>
+    <div class="right-section">
+      <a href=""><i class="material-icons">video_call</i></a>
+      <a href=""><i class="material-icons">apps</i></a>
+      <a href=""><i class="material-icons">notifications</i></a>
+      <a href=""><i class="material-icons">account_circle</i></a>
+    </div>
+  </header>
+  <div class="content-area">
+    <aside>
+      <nav>
+        <a href="" class="nav-link active"><i class="material-icons">home</i><span id="active-span">Home</span></a>
+        <a href="" class="nav-link"><i class="material-icons-outlined">explore</i><span>Explore</span></a>
+        <a href="" class="nav-link"><i class="material-icons-outlined">subscriptions</i><span>Subscriptions</span></a>
+        <a href="" class="nav-link"><i class="material-icons-outlined">ondemand_video</i><span>Originals</span></a>
+        <a href="" class="nav-link"><i class="material-icons">play_circle_outline</i><span>Youtube Music</span></a>
+        <hr />
+        <a href="" class="nav-link"><i class="material-icons-outlined">video_library</i><span>Library</span></a>
+        <a href="" class="nav-link"><i class="material-icons">history</i><span>History</span></a>
+        <a href="" class="nav-link"><i class="material-icons-outlined">smart_display</i><span>Your Videos</span></a>
+        <a href="" class="nav-link"><i class="material-icons-outlined">watch_later</i><span>Watch later</span></a>
+        <a href="" class="nav-link"><i class="material-icons-outlined">download</i><span>Downloads</span></a>
+        <a href="" class="nav-link"><i class="material-icons-outlined">thumb_up</i><span>Liked videos</span></a>
+        <hr />
+        <p>Subscriptions</p>
+        <a href="" class="nav-link"><img src="images/Screenshot 2024-02-22 at 13-58-10 YouTube.png" alt=""
+            class="channel-img" /><span>MU</span></a>
+        <a href="" class="nav-link"><img src="images/Screenshot 2024-02-22 at 13-58-16 YouTube.png" alt=""
+            class="channel-img" /><span>MU</span></a>
+        <a href="" class="nav-link"><img src="images/Screenshot 2024-02-22 at 13-58-21 YouTube.png" alt=""
+            class="channel-img" /><span>MU</span></a>
+        <a href="" class="nav-link"><img src="images/Screenshot 2024-02-22 at 13-58-32 YouTube.png" alt=""
+            class="channel-img" /><span>MU</span></a>
+        <a href="" class="nav-link"><img src="images/Screenshot 2024-02-22 at 13-58-39 YouTube.png" alt=""
+            class="channel-img" /><span>MU</span></a>
+      </nav>
+    </aside>
+    <main>
+      <div class="videos-container">
+        <div class="video">
+          <div class="thumbnal">
+            <img src="images/Screenshot 2024-02-22 at 13-57-03 YouTube.png" alt="" />
+          </div>
+          <div class="details">
+            <div class="ch-photo">
+              <img src="images/Screenshot 2024-02-22 at 13-58-10 YouTube.png" alt="" />
             </div>
-            <div class="details">
-              <div class="ch-photo">
-                <img src="images/profile-pic.png" alt="" />
-              </div>
-              <div class="title">
-                <a href="" class="v-title">Lorem ipsum dolor</a>
-                <a href="" class="v-cr">MU</a
-                ><span>1M Views . 3 Manth Ago</span>
-              </div>
+            <div class="title">
+              <a href="" class="v-title"> 16: ال Authentication </a>
+              <a href="" class="v-cr"> أكاديمية ترميز
+              </a><span>1M Views . 1 Manth Ago</span>
             </div>
           </div>
         </div>
-      </main>
-    </div>
-  </body>
+        <div class="video">
+          <div class="thumbnal">
+            <img src="images/Screenshot 2024-02-22 at 13-57-19 YouTube.png" alt="" />
+          </div>
+          <div class="details">
+            <div class="ch-photo">
+              <img src="images/Screenshot 2024-02-22 at 13-58-16 YouTube.png" alt="" />
+            </div>
+            <div class="title">
+              <a href="" class="v-title"> هكذا تصبح ناجحاً , وتمتلك سلطة الخطاب </a>
+              <a href="" class="v-cr">
+                Ahmad Fakhouri
+              </a><span>1M Views . 9 Manth Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="thumbnal">
+            <img src="images/Screenshot 2024-02-22 at 13-57-27 YouTube.png" alt="" />
+          </div>
+          <div class="details">
+            <div class="ch-photo">
+              <img src="images/Screenshot 2024-02-22 at 13-58-32 YouTube.png" alt="" />
+            </div>
+            <div class="title">
+              <a href="" class="v-title">AI with python</a>
+              <a href="" class="v-cr">MU</a><span>1M Views . 12 Manth Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="thumbnal">
+            <img src="images/Screenshot 2024-02-22 at 13-57-35 YouTube.png" alt="" />
+          </div>
+          <div class="details">
+            <div class="ch-photo">
+              <img src="images/Screenshot 2024-02-22 at 13-58-21 YouTube.png" alt="" />
+            </div>
+            <div class="title">
+              <a href="" class="v-title">أشهر مبرمج عربي، لم يدرس البرمجة | أسامة الزيرو</a>
+              <a href="" class="v-cr"> دروس أونلاين
+              </a><span>1M Views . 7 Manth Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="thumbnal">
+            <img src="images/Screenshot 2024-02-22 at 13-57-48 YouTube.png" alt="" />
+          </div>
+          <div class="details">
+            <div class="ch-photo">
+              <img src="images/Screenshot 2024-02-22 at 13-58-52 YouTube.png" alt="" />
+            </div>
+            <div class="title">
+              <a href="" class="v-title"> المفاجأة الكورية!.. سر هزيمة الشركات الألمانية والأميريكية على يد الكوريين في
+                دول الخليج! </a>
+              <a href="" class="v-cr"> Al Mashhad المشهد
+              </a><span>1M Views . 3 Manth Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="thumbnal">
+            <img src="images/Screenshot 2024-02-22 at 13-57-53 YouTube.png" alt="" />
+          </div>
+          <div class="details">
+            <div class="ch-photo">
+              <img src="images/Screenshot 2024-02-22 at 13-58-44 YouTube.png" alt="" />
+            </div>
+            <div class="title">
+              <a href="" class="v-title"> Build Youtube clone using HTML & CSS - بناء واجهة موقع يوتيوب </a>
+              <a href="" class="v-cr">
+                Codezilla
+
+              </a><span>1M Views . 4 Manth Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="thumbnal">
+            <img src="images/Screenshot 2024-02-22 at 15-17-08 YouTube.png" alt="" />
+          </div>
+          <div class="details">
+            <div class="ch-photo">
+              <img src="images/Screenshot 2024-02-22 at 15-44-40 YouTube.png" alt="" />
+            </div>
+            <div class="title">
+              <a href="" class="v-title"> كلمة للتاريخ.. في حقّ الأخ محمد شمس الدين!! </a>
+              <a href="" class="v-cr">
+                قناة حسن الحسيني
+              </a><span>1M Views . 6 Manth Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="thumbnal">
+            <img src="images/Screenshot 2024-02-22 at 15-17-25 YouTube.png" alt="" />
+          </div>
+          <div class="details">
+            <div class="ch-photo">
+              <img src="images/Screenshot 2024-02-22 at 15-46-10 يخيي تك - YouTube.png" alt="" />
+            </div>
+            <div class="title">
+              <a href="" class="v-title"> تحدي البرمجة - الحلقة 3 | أسئلة عن الجافاسكريبت وجافا </a>
+              <a href="" class="v-cr">
+                Yehia Tech يحيى تك
+              </a><span>1M Views . 8 Manth Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="thumbnal">
+            <img src="images/Screenshot 2024-02-22 at 15-17-29 YouTube.png" alt="" />
+          </div>
+          <div class="details">
+            <div class="ch-photo">
+              <img src="images/Screenshot 2024-02-22 at 15-46-38 حسين ناصر - YouTube.png" alt="" />
+            </div>
+            <div class="title">
+              <a href="" class="v-title">شرح تفصيلي لعقد CORS</a>
+              <a href="" class="v-cr">حسين ناصر</a><span>1M Views . 1 Manth Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="thumbnal">
+            <img src="images/Screenshot 2024-02-22 at 15-17-38 YouTube.png" alt="" />
+          </div>
+          <div class="details">
+            <div class="ch-photo">
+              <img src="images/Screenshot 2024-02-22 at 15-45-16 YouTube.png" alt="" />
+            </div>
+            <div class="title">
+              <a href="" class="v-title">I built an Apple Vision Pro app... visionOS tutorial</a>
+              <a href="" class="v-cr"> Beyond Fireship
+              </a><span>1M Views . 5 Manth Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="thumbnal">
+            <img src="images/Screenshot 2024-02-22 at 15-17-56 YouTube.png" alt="" />
+          </div>
+          <div class="details">
+            <div class="ch-photo">
+              <img src="images/Screenshot 2024-02-22 at 13-58-44 YouTube.png" alt="" />
+            </div>
+            <div class="title">
+              <a href="" class="v-title"> PHP Laravel Course - Build a Blog Website | كورس تعلم لارافيل من الصفر
+              </a>
+              <a href="" class="v-cr">
+                Codezilla Academy
+              </a><span>1M Views . 4 Manth Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="thumbnal">
+            <img src="images/Screenshot 2024-02-22 at 22-18-25 YouTube.png" alt="" />
+          </div>
+          <div class="details">
+            <div class="ch-photo">
+              <img src="images/Screenshot 2024-02-22 at 15-44-40 YouTube.png" alt="" />
+            </div>
+            <div class="title">
+              <a href="" class="v-title"> شاب مصري مبدع👍 أبدع في توضيح ما عجز عن فهمه الأغبياء!! </a>
+              <a href="" class="v-cr"> قناة حسن الحسيني
+              </a><span>1M Views . 3 Manth Ago</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </main>
+  </div>
+</body>
+
 </html>
